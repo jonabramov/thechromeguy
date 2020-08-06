@@ -1,3 +1,43 @@
+/* 
+Master Styles!
+
+*/
+
+
+body {
+
+margin: 0px;
+
+
+}
+
+/*
+
+1fr = 1 fractional unit
+flexbox = way easier of moving and adjusting the words
+
+
+
+*/
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Nav Styles! */
+
+
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
@@ -46,3 +86,24 @@
     transition: color 0.5s;
 
 }
+
+
+.nav-link-wrapper:hover {
+
+    border-bottom: 1px solid black;
+
+
+}
+
+
+.nav-link-wrapper a:hover {
+
+    color: black;
+
+
+}
+
+
+/* Portfoio Styles! */
+
+
