@@ -24,8 +24,6 @@ flexbox = way easier of moving and adjusting the words
     display: grid;
     grid-template-columns: 1fr;
 
-
-
 }
 
 
@@ -111,6 +109,41 @@ flexbox = way easier of moving and adjusting the words
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-items-wrapper{
+
+    position: relative;
+
+}
+
+
+
+
+.portfolio-img-background {
+
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+.img-text-wrapper {
+
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+
 }
 
 
