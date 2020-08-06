@@ -104,6 +104,13 @@ flexbox = way easier of moving and adjusting the words
 }
 
 
-/* Portfoio Styles! */
+/* Portfolio Styles! */
+
+
+.portfolio-items-wrapper {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 
