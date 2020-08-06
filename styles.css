@@ -6,6 +6,8 @@ Master Styles!
 
 body {
 
+    font-family: "Lato", sans-serif;
+
 margin: 0px;
 
 
@@ -38,8 +40,8 @@ flexbox = way easier of moving and adjusting the words
 
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 38px
+    justify-content: space-evenly;
+    padding: 30px
 
 
 }
@@ -100,6 +102,21 @@ flexbox = way easier of moving and adjusting the words
 
 
 }
+
+
+
+.active-nav-link {
+
+     border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+
+    color: solid !important;
+}
+
+
+
 
 
 /* Portfolio Styles! */
@@ -174,3 +191,36 @@ flexbox = way easier of moving and adjusting the words
 }
 
 
+
+
+
+/* About Page Styles! */
+
+.two-column-wrapper {
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.profile-image-wrapper img{
+
+    width: 100%;
+
+}
+
+
+
+
+.profile-content-wrapper h1 {
+
+padding: 30px;
+
+}
+
+
+.profile-content-wrapper h1 {
+
+    color: lightseagreen;
+}
