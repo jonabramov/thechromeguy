@@ -125,8 +125,8 @@ flexbox = way easier of moving and adjusting the words
     height: 100px;
     width: 100%;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-position: right;
+    background-repeat: left; 
 }
 
 
@@ -142,8 +142,35 @@ flexbox = way easier of moving and adjusting the words
     padding-left: 100px;
     padding-right: 100px;
 
+}
 
 
+.logo-wrapper img {
+
+    width: 150px;
+    margin-bottom: 100px;
+
+}
+
+
+.img-text-wrapper .subtitle{
+
+    transition: 1s;
+    color: transparent;
+
+
+}
+
+.img-text-wrapper:hover .subtitle {
+
+    font-weight: 600;
+    color: gray;
+}
+
+.img-darken {
+
+    transition: 1s;
+    filter: brightness(10%);
 }
 
 
